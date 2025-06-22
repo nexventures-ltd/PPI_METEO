@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:meteo_app/Screens/SplashScreen.dart';
 import 'package:meteo_app/Screens/dashboard_screen.dart';
 
 import 'theme/theme_provider.dart';
@@ -28,7 +29,8 @@ class _MeteoRwandaAppState extends State<MeteoRwandaApp> {
           theme: AppTheme.lightTheme,
           darkTheme: AppTheme.darkTheme,
           routes: {
-            '/': (context) => DashboardScreen(themeProvider: themeProvider),
+            '/': (context) => SplashScreen(themeProvider: themeProvider),
+            '/home': (context) => DashboardScreen(themeProvider: themeProvider),
           },
           debugShowCheckedModeBanner: false,
         );

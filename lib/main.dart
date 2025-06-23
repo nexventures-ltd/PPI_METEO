@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:meteo_app/Screens/SplashScreen.dart';
 import 'package:meteo_app/Screens/dashboard_screen.dart';
+import 'package:meteo_app/Screens/weather_screen.dart';
 
 import 'theme/theme_provider.dart';
 import 'theme/app_theme.dart';
@@ -31,6 +32,7 @@ class _MeteoRwandaAppState extends State<MeteoRwandaApp> {
           routes: {
             '/': (context) => SplashScreen(themeProvider: themeProvider),
             '/home': (context) => DashboardScreen(themeProvider: themeProvider),
+            '/weather': (context) => WeatherScreen(themeProvider: themeProvider, location: 'Kigali'),
           },
           debugShowCheckedModeBanner: false,
         );

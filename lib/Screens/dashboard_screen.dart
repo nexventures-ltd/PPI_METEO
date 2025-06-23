@@ -154,6 +154,17 @@ class _DashboardScreenState extends State<DashboardScreen>
           setState(() {
             _currentIndex = index;
           });
+          // Example navigation logic:
+          if (index == 0) {
+            // Already on Home, do nothing or maybe scroll to top
+            Navigator.of(context).pushNamed('/home');
+          } else if (index == 1) {
+            Navigator.of(context).pushNamed('/weather');
+          } else if (index == 2) {
+            Navigator.of(context).pushNamed('/maps');
+          }else if (index == 3) {
+            Navigator.of(context).pushNamed('/settings');
+          }
           HapticFeedback.lightImpact();
         },
       ),

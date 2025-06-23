@@ -3,6 +3,14 @@
 ## Project Overview
 MeteoRwanda is a hybrid digital platform designed to provide timely, localized, and actionable weather information to vulnerable populations in Rwanda. This Flutter application serves as the mobile interface for the platform, offering real-time weather forecasts, severe weather alerts, and sector-specific advisories.
 
+## MVP Screenshots
+![WhatsApp Image 2025-06-23 at 5 35 54 PM](https://github.com/user-attachments/assets/1269e00f-93ec-4c05-aaed-ce54ac4f63ff)
+![WhatsApp Image 2025-06-23 at 5 35 54 PM (1)](https://github.com/user-attachments/assets/2f7ad784-bc24-4e9f-a41f-ef0377ad62c9)
+![WhatsApp Image 2025-06-23 at 5 35 55 PM](https://github.com/user-attachments/assets/7e5ff270-1e82-409b-b668-e91fc2ca95c0)
+![WhatsApp Image 2025-06-23 at 5 35 55 PM (1)](https://github.com/user-attachments/assets/14e957af-45ff-4d23-80e7-768aee2c5b7d)
+![WhatsApp Image 2025-06-23 at 5 35 56 PM](https://github.com/user-attachments/assets/0980f0ef-d18e-4198-b6ee-bb6c64bcaba9)
+![WhatsApp Image 2025-06-23 at 5 35 53 PM](https://github.com/user-attachments/assets/bb08b3a4-c374-465e-a3ba-5f76970782b9)
+
 ## Key Features
 - Real-time localized weather forecasts
 - Severe weather alerts and notifications
@@ -15,9 +23,7 @@ MeteoRwanda is a hybrid digital platform designed to provide timely, localized, 
 ## Technical Stack
 - **Frontend**: Flutter (Android/iOS compatible)
 - **Backend**: FastAPI, PostgreSQL
-- **AI/ML**: TensorFlow, XGBoost
-- **SMS/USSD**: Telecommunication APIs
-- **Authentication**: OAuth2
+- **AI/ML**: TensorFlow
 
 ## Getting Started
 
@@ -49,15 +55,6 @@ MeteoRwanda is a hybrid digital platform designed to provide timely, localized, 
    ```bash
    flutter run
    ```
-
-## MVP Screenshots
-![WhatsApp Image 2025-06-23 at 5 35 54 PM](https://github.com/user-attachments/assets/1269e00f-93ec-4c05-aaed-ce54ac4f63ff)
-![WhatsApp Image 2025-06-23 at 5 35 54 PM (1)](https://github.com/user-attachments/assets/2f7ad784-bc24-4e9f-a41f-ef0377ad62c9)
-![WhatsApp Image 2025-06-23 at 5 35 55 PM](https://github.com/user-attachments/assets/7e5ff270-1e82-409b-b668-e91fc2ca95c0)
-![WhatsApp Image 2025-06-23 at 5 35 55 PM (1)](https://github.com/user-attachments/assets/14e957af-45ff-4d23-80e7-768aee2c5b7d)
-![WhatsApp Image 2025-06-23 at 5 35 56 PM](https://github.com/user-attachments/assets/0980f0ef-d18e-4198-b6ee-bb6c64bcaba9)
-![WhatsApp Image 2025-06-23 at 5 35 53 PM](https://github.com/user-attachments/assets/bb08b3a4-c374-465e-a3ba-5f76970782b9)
-
 
 ## Configuration
 The app can be configured through the following files:
